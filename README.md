@@ -1,6 +1,7 @@
-# VMS History (VMShist)
+# VMS History (repository: VMShistory)
 
-Last update: 31-July-2017
+Started: 31-July-2017  
+Last Update: 31-July-2017
 
 ## Overview
 
@@ -10,7 +11,7 @@ The ur-document for this history is a textual table (in a very painful format, b
 
 However, the last entry in that ur-document is circa Jun 2010, with the release of VMS v8.4 -- much has happened since, especially due to VSI's strong capabilities in the form of the resurrected VMS Engineering Team.
 
-So, for reasons of readability (clarity), maintenance sanity and currency (bringing it up-to-date), the information in that ur-doc is (will be) transformed and adapted into a proper table-like document (to start with, a LibreOffice Calc spreadsheet, but other forms may derive).
+So, for reasons of readability (clarity), maintenance sanity and currency (bringing it up-to-date), the information in that ur-doc is (will be) transformed and adapted into a proper table-like document, a semi-official VMS Timeline (to start with, a LibreOffice Calc spreadsheet, but other forms may derive).
 
 Hopefully, the open-source nature and availability of this revised/improved document and format will attract other contributors of information, including:
 
@@ -18,4 +19,6 @@ Hopefully, the open-source nature and availability of this revised/improved docu
 
 * Folks who can provide additional details and/or background.
 
-* Especially from VSI's VMS Engineering Team and from active users (sys-admins, programmers, etc.) of VMS, new features, functionality and capabilities as these are released and available.
+* Especially from VSI's VMS Engineering Team and from active users (sys-admins, programmers, etc.) of VMS, the new features, functionality and capabilities as released and available.
+
+A reasonably up-to-date formated PDF-document of the VMS Timeline will be always available as part of this repository; however, it may be updated only as new facts and entries are actually vetted with supporting documentation and provenance.
