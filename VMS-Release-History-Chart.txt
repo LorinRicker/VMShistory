@@ -1,0 +1,521 @@
+|===========|=========|======================|================|=|=|===============================================================|
+| Product   |Version  |Description           | SSB Submit Date|F|#|Key Enhancements                                               |
+|___________|_________|______________________|________________|Y|_|_______________________________________________________________|
+| VMS       |V4.0     |Functional - Remaster |                | |1|  VAXclusters, Connection Manager, Distributed Lock Manager,   |
+|           |         |                      |                | | |  Distributed File System, Distributed RMS, Distributed Job    |
+|           |         |                      |                | | |  Controller, Improved System Security, MicroVMS, VAX/VMS      |
+|           |         |                      |                | | |  Workstations                                                 |
+|___________|_________|______________________|________________|_|_|_______________________________________________________________|
+|           |V4.2     |Source                |15-OCT-1985     |F|2|                                                               |
+|           |_________|______________________|________________|Y| |                                                               |
+|           |V4.3     |Update                |18-DEC-1986     |8|3|                                                               |
+|           |_________|______________________|________________|6| |                                                               |
+|           |V4.3A    |LHR for the 8200      |06-JAN-1986     | |4|                                                               |
+|           |_________|______________________|________________|_|_|                                                               |
+|           |V4.4     |Functional - Remaster |14-JUL-1986     | |1|  Volume Shadowing                                             |
+|           |         |8550/8700   support   |                | | |                                                               |
+|           |_________|______________________|________________| | |                                                               |
+|           |V4.5     |Update to V4.4        |14-NOV-1986     | |2|                                                               |
+|      _____|_________|______________________|________________|F| |                                                               |
+|      |V4.5          |Microfiche            |14-NOV-1986     |Y| |                                                               |
+|      |______________|______________________|________________|1| |                                                               |
+|           |V4.5A    |VAXcluster support    |15-DEC-1986     |9|3|                                                               |
+|           |_________|______________________|________________|8| |                                                               |
+|           |V4.5B    |VAXstation 2000 &     |                |7|4|                                                               |
+|           |         |MicroVAX 2000 support |23-MAR-1987     | | |                                                               |
+|           |_________|______________________|________________| | |                                                               |
+|           |V4.5C    |Update to V4.5A       |04-MAY-1987     | |5|                                                               |
+|           |_________|______________________|________________|_|_|                                                               |
+|           |V4.6     |Functional - Remaster |07-AUG-1987     | |1|  RMS Journalling                                              |
+|      _____|_________|______________________|________________| | |                                                               |
+|      |V4.6          |Microfiche            |17-AUG-1987     | | |                                                               |
+|      |______________|______________________|________________| | |                                                               |
+|           |V4.7     |Upd to to V4.6/VS 8000|02-DEC-1987     | |2|                                                               |
+|      _____|_________|_______________Lynx___|________________|F| |                                                               |
+|      |V4.7          |CDROM                 |08-JAN-1988     |Y| |                                                               |
+|      |______________|______________________|________________|1| |                                                               |
+|           |V4.7A    |LHR for VS 32/35/3500 |28-MAR-1988     |9|3|                                                               |
+|___________|_________|____(Mayfair I)_______|________________|8| |_______________________________________________________________|
+|           |V5.0     |Functional - Remaster |16-MAY-1988     |8|4|  Mixed Interconnect VAXclusters, Symmetric Multiprocessing,   |
+|           |         |6200/88XX - Support   |                | | |  LMF, expanded system management functions, and international-|
+|      _____|_________|______________________|________________| | |  ization of terminal displays.                                |
+|      |V5.0          |CDROM                 |20-JUNE-1988    | | |                                                               |
+|      |______________|______________________|________________| | |                                                               |
+|      |V5.0          |Microfiche            |17-OCT-1988     | | |                                                               |
+|      |              |                      |FRS 31-OCT      | | |                                                               |
+|      |______________|______________________|________________|_|_|                                                               |
+|           |V5.0-1   |Update                |05-JUL-1988     | |1|                                                               |
+|           |         |                      |FRS 16-AUG      | | |                                                               |
+|      _____|_________|______________________|________________| | |                                                               |
+|      |V5.0-1        |CDROM                 |15-JUL-1988     | | |                                                               |
+|      |              |                      |FRS 16-AUG      | | |                                                               |
+|      |______________|______________________|________________| | |                                                               |
+|           |V5.0-2   |Update                |06-SEP-1988     |F|2|                                                               |
+|           |         |                      |FRS 31-OCT-1988 |Y| |                                                               |
+|           |_________|______________________|________________| | |                                                               |
+|           |V5.0-2A  |LHR for VS 33/3400    |19-OCT-1988     | | |                                                               |
+|           |         |                      |FRS 24-OCT-1988 |1|3|                                                               |
+|___________|_________|___(Mayfair II)_______|________________|9| |_______________________________________________________________|
+|           |V5.1     |Update                |06-JAN-1989     |8|4|  VMS DECwindows and CDA                                       |
+|           |         |                      |FRS 03-FEB-1989 |9| |                                                               |
+|           |_________|______________________|________________| | |                                                               |
+|===========|=========|======================|================|=|=|===============================================================|
+
+
+VMS Release History                                                                                                       Page 2
+|===========|=========|======================|================|=|=|===============================================================|
+| Product   |Version  |Description           | SSB Submit Date|F|#|Key Enhancements                                               |
+|___________|_________|______________________|________________|Y|_|_______________________________________________________________|
+|   VMS     |V5.1-B   |LHR-VS3100/Desktop-VMS|17-FEB-1989     | |5|                                                               |
+|           |         |                      |FRS 24-FEB-1989 | | |                                                               |
+|           |_________|_(PVAX)_______________|________________| | |                                                               |
+|           |V5.1-1   |Update - VS 38/3900   |10-APR-1989     | |6|                                                               |
+|           |         |(Mayfair III) VS 3520/|FRS 26-JUN-1989 | | |                                                               |
+|___________|_________|3540 (Firefox)________|________________| | |_______________________________________________________________|
+|           |V5.2     |Update                |23-JUL-1989     | |7|  Major enhancements to BACKUP - improved performance,         |
+|           |         |                      |FRS 05-SEP-1989 | | |  Cluster wide Process Services available, VAXcluster          |
+|           |         |                      |                | | |  system limit raised to 96 computers, VMS Security Enhance-   |
+|           |         |                      |                | | |  ments, enhancements to the VMS Debugger System Management    |
+|           |         |                      |                | | |  Enhancement Support for the VAX 6000 Model 400 system, and   |
+|           |         |                      |                | | |  MicroVAX and VAXserver 3100 Systems                          |
+|           |_________|______________________|________________|_|_|                                                               |
+|           |V5.2-1   |Update - PVAX I  TM II|14-SEP-1989     | | |                                                               |
+|           |         |                      |FRS 20-OCT-1989 |F|1|                                                               |
+|___________|_________|______________________|________________|Y| |_______________________________________________________________|
+|           |V5.3     |Update - DECwindows V2|27-OCT-1989     |9|2|  Improved DECwindows software for workstations,               |
+|           |         |                      |FRS 15-JAN-1990 |0| |  Distributed Name Service (DNS) for network based systems,    |
+|           |         |                      |                | | |  Enhanced VAX Text Processing Utility (TPU) and Extensible    |
+|           |         |                      |                | | |  VAX Editor (EVE),                                            |
+|           |         |                      |                | | |  Small Computer System Interface (SCSI) support               |
+|           |_________|______________________|________________| | |                                                               |
+|           |V5.3-1   |Update - MAINT        |30 -JAN-1990    |F|3|  New VMS DECwindows Graphics Option Support                   |
+|           |         |                      |FRS 02-APR-1990 |Y| |                                                               |
+|           |_________|______________________|________________| | |                                                               |
+|           |V5.3-2   |Update - MAINT        |04-APR-1990     |9|4|  Support for TA90E tape drive & RA92 DSA  Disk.               |
+|           |         |                      |FRS 11-MAY-1990 |9| |                                                               |
+|___________|_________|______________________|________________|0| |_______________________________________________________________|
+|           |AETNA    |Functional            |27-AUG-1990     | | |  Aquarius, Cirrus, Rigel/Vectors, HB Volume Shadowing         |
+|           | V5.4    |                      |FRS 05-OCT-1990 | | |  The VAXft 3000 system and Version 5.4 of VMS together offer  |
+|           |         |                      |                | | |  fault tolerance and high application availability.           |
+|           |         |                      |                | | |  New embedded VMS system services support DECtp architecture, |
+|           |         |                      |                | | |  providing features and enabling technologies for distributed |
+|           |         |                      |                | | |  transaction processing.                                      |
+|           |         |                      |                | | |  VMS Volume Shadowing now provides new controller-independent |
+|           |         |                      |                | | |  cluster-wide shadowing capabilities for all DSA (Digital     |
+|           |         |                      |                | | |  Storage Architecture) configurations.                        |
+|           |         |                      |                | | |  VAX RMS Journaling now supports distributed transactions,    |
+|           |         |                      |                | | |  utilizing new embedded VMS TP services.                      |
+|_____________________________________________________________|_|_|_______________________________________________________________|
+|           |V5.4-0A  |MAINT                 |24-Sep-1990     |F|1|  Fixes for VAX 6000 and VAX 9000.  Hardware bugfixes to V5.4  |
+|           |         |                      |FRS 01-OCT-1990 |Y| |  Limited distribution - only shipped to 6000 & 9000 sites.    |
+|_____________________________________________________________|9| |_______________________________________________________________|
+|           |V5.4-1   |Update - MAINT        |19-Nov-1990     |1|2|  VMS maintenance kit and optional new functionality,          |
+|           |         |and new functionality |FRS 08-=MAR-1991| | |  LAT V5.4-1.  V5.4-1 is minimum version required for support  |
+|           |         |                      |                | | |  of VMS Volume Shadowing Phase II                             |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+|           |V5.4-1A  |                      |18-Dec-1990     | | |  Revised V5.4-1 kit for VAX 6000-400 Series Systems           |
+|           |         |                      |FRS 02-JAN-1991 | | |                                                               |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+===================================================================================================================================
+
+VMS Release History                                                                                                       Page 3
+|===========|=========|======================|================|=|=|===============================================================|
+|Product    |Version  |Description           | SSB Submit Date| |#|Key Enhancements                                               |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+|  VMS      |V5.4-2   |Update - generally    |11-Mar-1991     | |3|  Support for VAX 4000 Model 200 series, KFMSA adapter, various|
+|           |         |available, maint &    |FRS 13-MAR-1991 | | |  peripheral devices & option LAT V5.4-2 saveset.              |
+|           |         |new functionality     |                | | |                                                               |
+|___________|_________|______________________|________________|_|_|_______________________________________________________________|
+|           |SIGMA    |Update Kit -generally |  5-Sep-1991    |F|1|  Quality improvements to V5.4, DEMFA and FDDI support, Local  |
+|           |V5.4-3   |available             |                |Y| |  Area VAXcluster Multiple Adapter Support, Autotuning.        |
+|           |         |                      | FRS=10/18/91   |9| |  Lat V5.4-3 is an optional saveset. Lat software will no      |
+|           |         |                      |                |2| |  longer be optional in next VMS release. Latent hardware      |
+|           |         |                      |                | | |  support.                                                     |
+|___________|________ |______________________|________________| | |_______________________________________________________________|
+|           |MAGIC    |Functional Release    |  1-Nov-1991    | |2|  Support for Batch/Print, TMSCP server support, SCSI Shadowing|
+|           |V5.5     |                      |                | | |  Multi-Adapter LAVc, IOSB enhancement for Vol Shad Phase II   |
+|           |         |Name changed to       | FRS=1/20/92    | | |  Improved Cluster Failover, POSIX Hooks, DECdtm 1.1, Phase V  |
+|           |         |OpenVMS               |                | | |  hooks, RTL changes, Hardware support contained in 5.4-3.     |
+|___________|_________|______________________|________________|_|_|_______________________________________________________________|
+|           |MAGIC MUP|Update and Maintenance|  6-Jun-1992    |F|1|  Quality improvements to V5.5, Batch/Print facility and Lock  |
+|           |V5.5-1   |Release               | FRS=7/10/92    |Y| |  Manager.                                                     |
+|-----------|---------|----------------------|----------------|9| |---------------------------------------------------------------|
+|           |V5.5-2HW |Limited HW Release    |                |3|2|  OpenVMS VAX V5.5-2HW was a special hardware release that     |
+|           |         |                      | FRS=9/4/92     | | |  supported the following new VAX systems and peripherals:     |
+|           |         |                      |                | | |  VAX 7000 Model 600 & VAX 10000 Model 600 (Neon)              |
+|           |         |                      |                | | |  VAX 4000 Model 400 (Omega-slow)/ VAX 4000 Model 100          |
+|           |         |                      |                | | |  (Cheetah-Q) MicroVAX 3100 Model 90 (Cheetah-W) / VAXstation  |
+|           |         |                      |                | | |  4000 Model 90 (Cougar) / RZ26 / TZ86 / ESE50                 |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |AMBER    |Maintenance Release   |  8-Oct-1992    | |3|  Maintenance Release to update Versions V5.5, A5.5, V5.5-1,   |
+|           |V5.5-2   |& New Hardware Release| FRS=11/11/92   | | |  A5.5-1, V5.5-2HW, A5.5-2HW. Contains all the changes in      |
+|           |         |                      |                | | |  V5.5-1. OpenVMS VAX V5.5-2 supercedes V5.5-2HW. This release |
+|           |         |                      |                | | |  also supports the new VAX Systems and Peripherals listed in  |
+|           |         |                      |                | | |  V5.5-2 HW.                                                   |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |ALPHA    |1st OpenVMS AXP Rel.  | 9-Nov-1992     | |4|  First release of OpenVMS AXP offers most of the base O/S     |
+|           |AXP V1.0 |Functional Release    | FRS= 11/16/92  | | |  functionality found in OpenVMS VAX V5.4-2.                   |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |VIKING   | Limited Hardware     | 26-Jul-1993    | | |  Limited Hardware Release based on V5.5-2.  Includes          |
+|           |V5.5-2H4 | Release              | FRS= 8/9/93    | | |  support for VAX 4000 models: 100A, 500A,600A,700A            |
+|           |         |                      |                | | |  Also supports 2nd SCSI adapter, KZDDA, on MicroVAX 3100      |
+|           |         |                      |                | | |  Model 90.  Also includes support for DEFTA (FDDI to          |
+|           |         |                      |                | | |  TURBOchannel adapter) and DEFQA (FDDI to Q-bus adapter)      |
+|           |         |                      |                | | |  and Tagged Command Queuing (TCQ) for StorageWorks            |
+|           |         |                      |                | | |  RAID Array 110 Subsystem.                                    |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |JETSTREAM|  Limited Hardware    | 16-July-1993   | | |  Limited Hardware Release based on V5.5-2. Includes           |
+|           |V5.5-2HF |  Release             | FRS = 8/6/93   | | |  support for VAXft model 810 system.                          |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |DELTA    |Functional Release    | 18-May-1993    | |5|  Second functional release of OpenVMS AXP.  Adds OpenVMS      |
+|           |AXP V1.5 |                      | FRS= 5/24/93   | | |  cluster support, SMP, DECdtm V1.1, clusterwide batch & print |
+|           |         |                      |                | | |  queing subsystem, Infoserver initial system load support,    |
+|           |         |                      |                | | |  xterminal support, ISO 9660, virtual I/O cache for standalone|
+|           |         |                      |                | | |  system.                                                      |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |BLADE/VAX|Functional Release    | 7-Jun-1993     | |6|  Functional release to include new features and security en-  |
+|           |V6.0     |                      | FRS= 6/21/93   | | |  hancements, i.e., Extended Physical Addressing up to 3.5 GB, |
+|           |         |                      |                | | |  Virtual Balance Slots, Extended Virtual Addressing, Virtual  |
+|           |         |                      |                | | |  I/O Cache, $SCHED System Service, System Snapshot, ISO 9660  |
+|           |         |                      |                | | |  Standards Compliance, MSCP, Security Enhancements to make    |
+|           |         |                      |                | | |  OpenVMS VAX C2 compliant.                                    |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+
+
+VMS Release History                                                                                                       Page 4
+|===========|=========|======================|================|=|=|===============================================================|
+|Product    |Version  |Description           | SSB Submit Date| |#|Key Enhancements                                               |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+|  VMS      |DELTA    |HW Support            | 18-Oct-1993    |F|1|  Hardware support release based on V1.5.  Includes support for|
+|           |PLUS/AXP |                      | FRS= 10/26/93  |Y| |  DEC2000 models 300 & 500, and DEC3000 models 600, 600S, 800, |
+|           |V1.5-1H1 |                      |                |9| |  800S.  Also includes support for the PMAZC TURBO channel     |
+|           |         |                      |                |4| |  adapter.                                                     |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |CORAL/VAX|Functional Release    | 18-Mar-1994    | |2|  Functional release containing all previous functionality of  |
+|           |V6.1     |                      | FRS= 4/15/94   | | |  OpenVMS VAX V6.0 and OpenVMS VAX V5.5-2H4 releases plus:     |
+|           |         |                      |                | | |  DECnet/OSI Full Names, PCSI, Per-Disk licensing for OpenVMS  |
+|           |         |                      |                | | |  Volume Shadowing, support for Polycenter HSM, XQP+ perform-  |
+|           |         |                      |                | | |  ance enhancements, Infoserver Tape Backup, Debugger Heap     |
+|           |         |                      |                | | |  Analyzer, LAT Symbiont customization.                        |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |EPSILON  |Functional Release    | 5-May-1994     | |3|  Third AXP functional release.  Achieves functional equiva-   |
+|           |AXP V6.1 |                      | FRS= 5/18/94   | | |  lence with OpenVMS VAX V6.1.  Includes:  PCSI (for O/S & LP  |
+|           |         |                      |                | | |  installations), user written device drivers, system code     |
+|           |         |                      |                | | |  debugger, DECdtm V1.2, movefile support, TMSCP tape server,  |
+|           |         |                      |                | | |  modifiable LAT symbiont, class-architecture satellite booting|
+|           |         |                      |                | | |  XQP+, V6.0 security features, clusterwide virtual I/O cache, |
+|           |         |                      |                | | |  & more.                                                      |
+|-----------|---------|----------------------|----------------|-|-|---------------------------------------------------------------|
+|           |V6.1-1H1 | Alpha HW Release     | SSB=9/22/94    |F|1|  Support for AlphaStation 400 4/233,266                       |
+|           |         | (Code name=Phantom)  | FRS=9/30/94    |Y| |  Alphastation 200 4/166,233                                   |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |V6.1-1H2 | Alpha HW Release     | SSB=11/23/94   |9|2|  Support for AlphaServer 1000 4/233                           |
+|           |         | (Code name=Spirit)   | FRS=11/30/94   | | |  AlphaStation 200 4/100,266                                   |
+|           |         |                      |                |5| |  AlphaServer 400 4/166                                        |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |DRAGON   |Functional Release    |15-May-1995 FCST| |3|  Enhances functional equivalence by providing the following   |
+|           |VAX V6.2 |                      |FRS= 6/17/95FCST| | |  features introduced in OpenVMS AXP V6.1: Dynamic Device      |
+|           |         |                      |                | | |  Recognition, Command Recall, Personation System Services,    |
+|           |         |                      |                | | |  LATmaster V2.0, Cluster Event Notification Services, and     |
+|           |         |                      |                | | |  Show System Enhancements.  This release also includes these  |
+|           |         |                      |                | | |  new features: Support for System Dump file off system disk,  |
+|           |         |                      |                | | |  TMSCP for SCSI tapes, New Mgmt. Station (ARGUS), Backup Mgr.,|
+|           |         |                      |                | | |  Cluster client license, XPG4 DEC C/C++ RTL, Shadowset limit  |
+|           |         |                      |                | | |  expansion, Search Utility and Show Utility Enhancements,     |
+|           |         |                      |                | | |  Automatic Foreign Commands, TCP/IP Hooks and Booting clusters|
+|           |         |                      |                | | |  without DECnet (LAN-MOP).  Support for Controller Based      |
+|           |         |                      |                | | |  Shadowing has been removed in OpenVMS VAX V6.2.              |
+|           |         |                      |                | | |  The OpenVMS Freeware CD-ROM has been included in the         |
+|           |         |                      |                | | |  OpenVMS V6.2 distribution kit.                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |ZETA     |Functional Release    |15-May-1995 FCST| |4|  Enhances functional equivalence by providing the following   |
+|           |ALPHA    |                      |FRS= 6/17/95FCST| | |  features included in OpenVMS VAX V6.1: SCSI II Tagged Command|
+|           |V6.2     |                      |                | | |  Queuing and DECnet/OSI Fullnames.  This release also includes|
+|           |         |                      |                | | |  these new features: SCSI Clusters, Multi Site Clusters, PCI  |
+|           |         |                      |                | | |  and ISA/EISA support, Token-ring support, TMSCP for SCSI     |
+|           |         |                      |                | | |  tapes, New Management Station (ARGUS), Backup Manager,       |
+|           |         |                      |                | | |  Cluster client license, XPG4 DEC C/C++ RTL, Shadowset limit  |
+|           |         |                      |                | | |  expansion, Search Utility and Show Utility Enhancements,     |
+|           |         |                      |                | | |  Automatic Foreign Commands, TCP/IP Hooks and Booting clusters|
+|           |         |                      |                | | |  without DECnet (LAN-MOP).                                    |
+|           |         |                      |                | | |  The OpenVMS Freeware CD-ROM has been included in the         |
+|           |         |                      |                | | |  OpenVMS V6.2 distribution kit.                               |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------|-|-|---------------------------------------------------------------|
+
+
+VMS Release History                                                                                                       Page 5
+|===========|=========|======================|================|=|=|===============================================================|
+|Product    |Version  |Description           | SSB Submit Date| |#|Key Enhancements                                               |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+| VMS       |Ghost    | Alpha HW Release     |06-DEC-1995 SSB |F|1|  AlphaServer 2100A 5/250,300 2100A 4/275                      |
+|           |V6.2-1H1 |                      |15-DEC-1995 FRS | | |  AlphaStation 255/233,300                                     |
+|           |         |                      |                |Y| |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Eagle    |Functional Release    |18-DEC-1995 SSB |9|2|  Integrated support for TCP/IP Mail, standard socket library, |
+|           |VAX      |                      |19-JAN-1996 FRS | | |  and time zone support. Clusterwide $CREPRC, 1024 process     |
+|           |V7.0     |                      |                |6| |  identifiers in Queuing requests.                             |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Theta    |Functional Release    |18-DEC-1995 SSB | |3|  Introduced 64-bit virtual addressing and Kernel Threads      |
+|           |Alpha    |                      |02-JAN-1996 FRS | | |  capabilities.   Also provided Fast Path, and Fast I/O plus   |
+|           |V7.0     |                      |                | | |  the same functionality as Eagle.                             |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Zombie   |Alpha HW Release      |22-FEB-1996 SSB | |4|  Support for new low-end AlphaServer 1000                     |
+|           |V6.2-1H2 |Superseded by         |01-MAR-1996 FRS | | |  Support for CI to PCI adapter (CIPCA)                        |
+|           |         |V6.2-1H3              |                | | |  Provides same support and functionality as Ghost.            |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Goblin   |Alpha HW Release      |21-MAY-1996 SSB | |5|  AlphaServer 4100 5/300, 5/300E, 5/300 (Rawhide), AlphaServer |
+|           |V6.2-1H3 |                      |29-MAY-1996 FRS | | |  4000 5/300 & 5/400 (Wrangler), AlphaStation 500/500, Alpha-  |
+|           |         |                      |                | | |  Server 1000A 5/400, AlphaServer 300, AlphaServer 8200/8400   |
+|           |         |                      |                | | |  8200/8400 FWD SCSI clusters support.  Plus, provides same    |
+|           |         |                      |                | | |  support and functionality as Ghost and Zombie.               |
+|-----------|---------|----------------------|----------------|-|-|---------------------------------------------------------------|
+|           |Gryphon  |Functional Release    |20-DEC-1996 SSB |F|1|  Provides new features specifically designed to improve       |
+|           |V7.1     |                      |24-JAN-1997 FRS | | |  performance and expand configuration flexibility for OpenVMS |
+|           |         |                      |                |Y| |  Clusters. Enhancements and new features focused on connecting|
+|           |         |                      |                | | |  OpenVMS with the Internet, extending Very Large Memory (VLM) |
+|           |         |                      |                |9| |  capabilities introduced in OpenVMS Alpha V7.0, and making    |
+|           |         |                      |                | | |  system management of OpenVMS systems easier.  Key function-  |
+|           |         |                      |                |7| |  ality: Memory Channel (Alpha), Extended VLM capabilities     |
+|           |         |                      |                | | |  (Alpha), SCSI Device Naming (Alpha & VAX), High SCSI ID      |
+|           |         |                      |                | | |  (Alpha), CI-to-PCI (CIPCA) adapter support, LAN Emulation    |
+|           |         |                      |                | | |  Client and Classic IP support (Alpha), OpenVMS Internet      |
+|           |         |                      |                | | |  Product Suite (Alpha & VAX), DECnet-Plus replaces DECnet     |
+|           |         |                      |                | | |  Phase IV in the OpenVMS Alpha and VAX operating system       |
+|           |         |                      |                | | |  installation and upgrade procedures, DECnet Phase IV avail-  |
+|           |         |                      |                | | |  able as a layered product, DECamds is licensed with the base |
+|           |         |                      |                | | |  operating system license, Mount and Shadow driver rewrites   |
+|           |         |                      |                | | |  (Alpha & VAX), Callable Backup API (Alpha & VAX), OpenVMS    |
+|           |         |                      |                | | |  Management Station V2.1 (Alpha & VAX), Dump file off the     |
+|           |         |                      |                | | |  system disk (Alpha), Volume Shadowing mini-merge enabled on  |
+|           |         |                      |                | | |  system disks, External authentication (Alpha & VAX), new DCL |
+|           |         |                      |                | | |  PIPE command, and Cluster Client and Volume Shadowing Per    |
+|           |         |                      |                | | |  Disk License Enforcement.                                    |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+
+
+VMS Release History                                                                                                       Page 6
+|===========|=========|======================|================|=|=|===============================================================|
+|Product    |Version  |Description           | SSB Submit Date| |#|Key Enhancements                                               |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+| VMS       |Hailstorm|Alpha HW Release      |22-OCT-1997 SSB | | |  Hardware update for the OpenVMS V7.1 Alpha release.  Support |
+|           |V7.1-1H1 |Superseded by         |  -NOV-1997 FRS | | |  for the following:                                           |
+|           |         |V7.1-1H2              |                |F| |    UltraSCSI:                                                 |
+|           |         |                      |                | | |      - KZPBA-CA adapter on AlphaServers 4100, 4000, 2100,     |
+|           |         |                      |                |Y| |        2100A, 2000, 1200, 1000, 1000A and 800                 |
+|           |         |                      |                | | |      - UltraSCSI disks such as RZ1BB, RZ1CB and RZ1DB         |
+|           |         |                      |                | | |    HSZ70 UltraSCSI controller for the Enterprise Storage Array|
+|           |         |                      |                | | |      10,000 (initially in Fast SCSI mode on the KZPSA adapter |
+|           |         |                      |                | | |    AlphaServer 800 5/500                                      |
+|           |         |                      |                | | |    AlphaServer 1200                                           |
+|           |         |                      |                | | |    DIGITAL Modular Computing Components:                      |
+|           |         |                      |                | | |      - Alpha 5/366 PICMG SBC                                  |
+|           |         |                      |                | | |      - Alpha 5/433 PICMG SBC                                  |
+|           |         |                      |                | | |    DE500-BA Network Adapter                                   |
+|           |         |                      |                | | |    DE500-FA Network Adapter (run-time only)                   |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------|-|-|---------------------------------------------------------------|
+|           |Hailstorm|Alpha HW Release      |03-MAR-1998 SSB |9| | Hardware update for the OpenVMS V7.1 Alpha release.           |
+|           |2        |                      |17-APR-1998 FRS | | | Support for the following:                                    |
+|           |V7.1-1H2 |                      |                |8| |    - Third party boot support                                 |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Blizzard |Alpha HW Release      |   NOV-1998 SSB | | | Includes all hardware supported in OpenVMS Versions 7.1-1H1   |
+|           |V7.1-2   |                      |   DEC-1998 FRS |F| | and 7.1-1H2, as well as the following new hardware support:   |
+|           |         |                      |                | | |  - Compaq AlphaServers GS60, GS140, DS10, DS20, DS20E and     |
+|           |         |                      |                |Y| |    ES40 with remedial kits                                    |
+|           |         |                      |                | | |  - Compaq AlphaStations XP900and XP1000 with remedial kis     |
+|           |         |                      |                | | |  - Digital Personal Workstations with integrated IDE CD-ROM   |
+|           |         |                      |                |9| |    support                                                    |
+|           |         |                      |                | | |  - Ultra SCSI Clusters                                        |
+|           |         |                      |                |9| |  - KZPCM adapter                                              |
+|           |         |                      |                | | |  - SCSI hub DWZZH-05, with four-node support in a SCSI        |
+|           |         |                      |                | | |    multihost cluster system                                   |
+|           |         |                      |                | | |  - Gigabit Ethernet                                           |
+|           |         |                      |                | | |  - OpenVMS support for Compact/PCI                            |
+|           |         |                      |                | | |  - OpenVMS support for IDE CD-ROM Device Driver               |
+|           |         |                      |                | | |  - MCII - Memory Channel V2.0                                 |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Raven    |Functional Release    |   JAN-1999 SSB |C| | Provides new features and enhancements that focus on the      |
+|           |V7.2     |Superseded by         |   FEB-1999 FRS | | | following areas:                                              |
+|           |         |V7.2-1                |                |Y| |   Compaq Galaxy Software Architecture on OpenVMS Alpha,       |
+|           |         |                      |                | | |   COM V1.0 for OpenVMS, Intra-Cluster Communication System    |
+|           |         |                      |                |9| |   Services (ICC), Clusterwide Logicals, Fibre Channel Storage |
+|           |         |                      |                | | |   Interconnect, Storage Multibus Failover, Gigabit Ethernet,  |
+|           |         |                      |                |9| |   Lock Manager, Smaller Disk Cluster Factors, Per-Thread      |
+|           |         |                      |                | | |   Security Profiles, OpenVMS Backup, OpenVMS Management       |
+|           |         |                      |                | | |   Station V3.1, Faster Image Activations, Windows Debug       |
+|           |         |                      |                | | |   Extensions, Alpha Firmware Revision Checking, RMS Global    |
+|           |         |                      |                | | |   Buffer Hashing, Java Development Kit V1.1.6, Netscape       |
+|           |         |                      |                | | |   FastTrack Server, Dual formatted OpenVMS Online Doc         |
+|           |         |                      |                | | |   CDROM, DIGITAL TCP/IP Services V5.0 for OpenVMS, New UNIX   |
+|           |         |                      |                | | |   style command interface, CIDR Support, BIND 8.1, Load       |
+|           |         |                      |                | | |   Broker, NTP Enhancement, New SNMP Implementation, DHCP      |
+|           |         |                      |                | | |   (Dynamic Host Configuration Protocol), Gated, Extended File |
+|           |         |                      |                | | |   System Support by FTP, DECnet-Plus for OpenVMS V7.2,        |
+|           |         |                      |                | | |   Advanced Server V7.2 for OpenVMS (Alpha).                   |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+
+
+VMS Release History                                                                                                       Page 7
+|===========|=========|======================|================|=|=|===============================================================|
+|Product    |Version  |Description           | SSB Submit Date| |#|Key Enhancements                                               |
+|___________|_________|______________________|________________| | |_______________________________________________________________|
+| VMS       |Raven    |Alpha V7.2 HW01       |   MAY-1999 SSB |C| | Provides support for Compaq AlphaServers GS60, GS140 and DS20,|
+|           |HW01     |Remedial Kit          |   MAY-1999 FRS | | | which include the new 21264 processor technology;  OpenVMS    |
+|           |V7.2 +   |                      |                |Y| | Galaxy configurations on Compaq AlphaServers GS60 and GS140   |
+|           |TIMA     |                      |                | | | systems; new Fibre Channel storage interconnect support on    |
+|           |         |                      |                |9| | AlphaServer 800, 1200, 4000, 4100, 8200 and 8400 systems;     |
+|           |         |                      |                | | | Gigabit Ethernet, a new high bandwidth standard in Ethernet   |
+|           |         |                      |                |9| | technology; Memory Channel Version 2.0.                       |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Raven    |Follow-on release     |   JUN-1999 SSB |C| | Includes all the capabilities of OpenVMS Alpha V7.2 plus      l
+|           |Plus     |to OpenVMS Alpha V7.2 |   JUL-1999 FRS | | | provides the following new support:  COM V1.1 for OpenVMS     |
+|           |V7.2-1   |and replaces the      |                |Y| | (with NT authentication); Compaq AlphaServers GS140, GS60,    |
+|           |         |OpenVMS Alpha V7.2    |                | | | GS60E, ES40, DS20, and DS10; Compaq Galaxy Software           |
+|           |         |release               |                |9| | Architecture on OpenVMS AlphaServers GS140, GS60 and GS60E;   |
+|           |         |                      |                | | | Compaq AlphaStation XP900 workstation; New Fibre Channel      |
+|           |         |                      |                |9| | storage interconnect support on AlphaServer 800, 1000A, 1200, |
+|           |         |                      |                | | | 4000, 4100, 8200, 8400, GS60, GS60E, and GS140 systems;       |
+|           |         |                      |                | | | Gigabit Ethernet, a high bandwidth standard in Ethernet       |
+|           |         |                      |                | | | technology; Memory Channel Version 2.0; Multipath failover    |
+|           |         |                      |                | | | with shadowing support for parallel SCSI and Fibre Channel    |
+|           |         |                      |                | | | configurations; Intel Fast Ethernet (10/100); Multiple tape   |
+|           |         |                      |                | | | density fixes; Remedial kit fixes from December '98 to May '99|
+|           |         |                      |                | | | The following layered products have been updated and are      |
+|           |         |                      |                | | | included in the OpenVMS V7.2-1 kit:  Advanced Server V7.2A for|
+|           |         |                      |                | | | OpenVMS Alpha, DIGITAL TCP/IP Services for OpenVMS V5.0A,     |
+|           |         |                      |                | | | Availability Manager V1.2, DECnet-Plus V7.2-1, and Netscape   |
+|           |         |                      |                | | | FastTrack Server V3.01A.                                      |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Pele     |Alpha Hardware Release|   JUN-2000 SSB |C| | Includes all the capabilities of OpenVMS Alpha V7.2-1 plus    l
+|           |V7.2-1H1 |                      |   JUN-2000 FRS | | | provides the following new support:  OpenVMS support for      |
+|           |         |                      |                |Y| | Compaq AlphaServer GS160 and GS320 systems, OpenVMS support   |
+|           |         |                      |                | | | for hard and soft partitions (Galaxy) on AlphaServer GS160    |
+|           |         |                      |                |2| | and GS320 systems, OpenVMS Resource Affinity Domain (RAD)     |
+|           |         |                      |                |0| | support for applications, new Spinlock Tracking Utility in    |
+|           |         |                      |                |0| | SDA, RMS Locking enhancements, and remedial fixes from May,   |
+|           |         |                      |                |0| | 1999 to mid-March, 2000.                                      |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Kestrel  |Functional Release    |   APR-2001 SSB | | | Provides the following new capabilities:  Improved disaster   |
+|           |V7.3     |                      |   APR-2001 FRS | | | tolerant capabilities with ATM & Gigabit Ethernet as cluster  |
+|           |         |                      |                | | | interconnects, greater system availability during backups with|
+|           |         |                      |                | | | faster reintregration of shadow members after copies, enhanced|
+|           |         |                      |                | | | VMS support for the latest ENSA Storage offerings, greater    |
+|           |         |                      |                | | | serviceability for the new AlphaServer GS systems with CPU    |
+|           |         |                      |                |C| | Online Add/Remove, application performance benefits with      |
+|           |         |                      |                | | | Extended File Cache, improved Cluster, SMP and system         |
+|           |         |                      |                | | | performance through enhancements to RMS and the clusterwide   |
+|           |         |                      |                | | | Lock Manager and Fastpath support for Fibre Channel and SCSI  |
+|           |         |                      |                | | | storage, industry standard Kerberos V5 security, VMS          |
+|           |         |                      |                | | | Intrusion Detection expands to be cluster-wide, ECP Data      |
+|           |         |                      |                |Y| | Collector and ECP Performance Analyzer are included with      |
+|           |         |                      |                | | | operating system, plus the OpenVMS license is expanded to     |
+|           |         |                      |                | | | include all these new eBusiness technologies:  Compaq Secure  |
+|           |         |                      |                | | | Web Server V1.0 for OpenVMS Alpha (Based on Apache), Mozilla  |
+|           |         |                      |                | | | Web Browser (Alpha only), COM for OpenVMS, Extensible Markup  |
+|           |         |                      |                | | | Language API (XML parser), Java (TM) 2 SDK, Standard Edition  |
+|           |         |                      |                |2| | V1.2.2, Attunity Connect "On Platform" Package (native JDBC   |
+|           |         |                      |                | | | driver included), Reliable Transaction Router (RTR), and      |
+|           |         |                      |                | | | OpenVMS Enterprise Directory for eBusiness (X.500).           |
+|-----------|---------|----------------------|----------------|0| |---------------------------------------------------------------|
+|           |Tutu     |Alpha Hardware Release|   AUG-2001 SSB | | | OpenVMS Alpha V7.2-2 contains all of the features that were   |
+|           |V7.2-2   |Replaces V7.2-1 Alpha |   SEP-2001 FRS | | | available in OpenVMS Alpha V7.2-1 and V7.2-1H1, as well as    |
+|           |         |and V7.2-1H1 Alpha    |                |0| | the following enhancements:  Increased system performance and |
+|           |         |                      |                | | | SMP scaling, Volume Shadowing Minicopy feature, support for   |
+|           |         |                      |                | | | Fibre Channel-Attached Tapes, updates Registry Server,        |
+|           |         |                      |                |1| | Security enhancements, and LAN ATM Adapter support.  OpenVMS  |
+|           |         |                      |                | | | Alpha V7.2-2 is the recommended version to co-exist in mixed  |
+|           |         |                      |                | | | version clusters with OpenVMS V7.3.                           |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Ruby     |Minor Alpha Release   |  AUG-2002 SSB  |C| | OpenVMS Alpha V7.3-1 focuses on expanding our OpenVMS SAN     |
+|           |V7.3-1   |                      |  SEP-2002 FRS  |Y| | offering, improving system availability, providing I/O and    |
+|           |         |                      |                | | | SMP performance improvements and enhanced security.  This     |
+|           |         |                      |                |2| | release also includes enhancements to make it much easier     |
+|           |         |                      |                |0| | to port UNIX applications to OpenVMS.  It also delivers the   |
+|           |         |                      |                |0| | highest levels of availability, scalability, flexibility,     |
+|           |         |                      |                |2| | performance and security that are required for ebusiness.     |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Opal     |New Feature/Hardware  |  OCT-2003 SSB  | | | OpenVMS Alpha V7.3-2 focuses on increased I/O and SMP         |
+|           |V7.3-2   |Release               |  DEC-2003 FRS  |C| | performance, improved system availability, expanded Storage   |
+|           |         |                      |                | | | Area Network (SAN) offerings, and enhanced security, UNIX     |
+|           |         |                      |                | | | portability and system management features. This release also |
+|           |         |                      |                | | | provides support for new AlphaServer GS1280 65P and DS15      |
+|           |         |                      |                | | | systems, as well as all existing AlphaServer systems.         |
+|           |         |                      |                |Y| |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Mako     |Evaluation Release    |  JUNE-2003 SSB | | | The OpenVMS V8.0 Evaluation Release for HP Integrity Servers  |
+|           |V8.0     |for HP Integrity      |  JUNE-2003 FRS | | | runs on rx2600 McKinley based Integrity servers. This         |
+|           |         |only to selected      |                |2| | evaluation kit was only available to selected OpenVMS ISVs    |
+|           |         |OpenVMS ISVs and      |                | | | and Partners.  The goal was to work very closely with a       |
+|           |         |partners              |                | | | limited number of partners to start porting their applications|
+|           |         |                      |                | | | for a broad spectrum of the OpenVMS solutions in the market.  |
+|           |         |                      |                |0| |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Jaws     |Evaluation Release    |  DEC-2003 SSB  | | |The OpenVMS V8.1 Evaluation Release for HP Integrity Servers   |
+|           |V8.1     |for HP Integrity      |  DEC-2003 FRS  | | |runs on rx2600 and rx4640 Integrity servers.  The evaluation   |
+|           |         |Servers - generally   |                |0| |kit is available for those who want to get a jump on porting   |
+|           |         |available SDK kit     |                | | |thier environments to OpenVMS for Itanium architecture-based   |
+|           |         |                      |                | | |HP Integrity Servers in anticipation of the production quality |
+|           |         |                      |                | | |release scheduled for H2CY2004.                                |
+|           |         |                      |                |3| |                                                               |
+|           |         |                      |                | | |                                                               |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Topaz    |First production      |  JAN-2005 SSB  |2| |The OpenVMS V8.2 Production Release for HP Integrity Servers   |
+|           |V8.2     |release of OpenVMS    |  FEB-2005 SR   | | |runs on rx1600-2, rx2600-2 and rx4640-8 systems.  OpenVMS V8.2 |
+|           |         |on HP Integrity       |                | | |includes Volume Shadowing support for host based mini-merge,   |
+|           |         |servers, as well as a |                | | |infrastructure changes to support performance and scalability  |
+|           |         |new Alpha release     |                |0| |enhancements in future OpenVMS releases, as well as updates to |
+|           |         |                      |                | | |security and standards.  This release also includes support for|
+|           |         |                      |                | | |mixed architecture AlphaServer and Integrity server clusters   |
+|           |         |                      |                |0| |with shared fibre channel storage, up to 16 nodes.             |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Dory     |OpenVMS Integrity     | JULY-2005 SSB  | | |The OpenVMS V8.2-1 release is an HP Integrity server-only      |
+|           |V8.2-1   |server release only;  | SEPT-2005 SR   |5| |release that introduces support for the newest Integrity       |
+|           |         |Replaces OpenVMS V8.2 |                | | |cell-based rx7620, rx8620, and Superdome systems.  OpenVMS     |
+|           |         |                      |                | | |V8.2-1 also continues support for all of the Integrity servers |
+|           |         |                      |                | | |and options supported in OpenVMS V8.2.  OpenVMS V8.2-1 is a    |
+|           |         |                      |                | | |replacement for OpenVMS V8.2 on Integrity.  Standard support   |
+|           |         |                      |                | | |for OpenVMS V8.2 on Integrity ends June 2006 or when V8.3      |
+|           |         |                      |                | | |ships.  OpenVMS V8.2-1 includes performance and scalability    |
+|           |         |                      |                | | |enhancements, support for hard partitioning (nPar) on          |
+|           |         |                      |                | | |partitions up to 4 cells, expanded support for mixed           |
+|           |         |                      |                | | |architecture AlphaServer and Integrity system clusters, and    |
+|           |         |                      |                | | |low-cost multi-host SCSI clusters.                             |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Nemo     |OpenVMS Alpha and     | JULY-2006 SSB  | | |HP OpenVMS V8.3 for Alpha and Integrity server systems         |
+|           |V8.3     |Integrity server      | AUG-2006 SR    | | |introduces support for the newest Integrity server (entry level|
+|           |         |release.  Replaces    |                | | |mid-range and high-end systems including Superdome.  V8.3 also |
+|           |         |OpenVMS Alpha V8.2    |                | | |continues support for all Integrity servers and options        |
+|           |         |and V8.2-1 on         |                | | |and new capabilities supported in V8.2 and V8.2-1.  V8.3       |
+|           |         |Integrity servers     |                | | |includes expanded cluster configuration support, performance,  |
+|           |         |                      |                | | |scalability, security, standards and Adaptive Enterprise       |
+|           |         |                      |                | | |enhancements.  Standard support for OpenVMS V8.2 on Integrity  |
+|           |         |                      |                | | |servers systems ends on December 31, 2006.                     |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Orion    |OpenVMS Integrity     | October 2007   | | |OpenVMS v8.3-1H1 for Integrity servers is the 30th anniversary |
+|           |8.3-1H1  |server release        | ASM;           | | |edition of the OpenVMS operating system. It delivers new       |
+|           |         |                      | November       | | |features, enhanced system management functionality for the     |
+|           |         |                      | 2007 SR        | | |BL860c Server Blade, and support for the latest revisions of   |
+|           |         |                      |                | | |the Dual-Core Intel Itanium processors for the rx2660,         |
+|           |         |                      |                | | |rx3600, rx7640, rx8640, and Superdome servers.                 |
+|           |         |                      |                | | |                                                               |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+|           |Jedi     |OpenVMS Integrity     | June 2010      | | |OpenVMS v8.4 for Integrity servers and Alpha Systems introduces|
+|           |8.4      |server and Alpha      | SR             | | |support for OpenVMS as a guest operating system in an HP       |
+|           |         |System release        |                | | |Integrity VM environment on the Integrity platform. V8.4       |
+|           |         |                      |                | | |delivers new and enhanced features � Clusters over IP, Extended|
+|           |         |                      |                | | |membership, Shadowing, 2TB Volume Support, Integrity with RAD  |
+|           |         |                      |                | | |support HP TCP/IP Services Version 5.7 for OpenVMS,            |
+|           |         |                      |                | | |Provisioning with full install for the BL860c and Bl870c       |                           |           |         |                      |                | | |Server Blades and support for the Dual-Core Intel Itanium      |
+|           |         |                      |                | | |processors for the rx2620, rx2660, rx3600, rx6600, rx7640,     |
+|           |         |                      |                | | |rx8640, and Superdome servers.                                 |
+|-----------|---------|----------------------|----------------| | |---------------------------------------------------------------|
+Last Updated: June 21, 2010
