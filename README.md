@@ -7,11 +7,15 @@ Last Update: 1-August-2017
 
 This repository is unconventional in that it contains no code, but instead is a collection-point for documentation about the history and development of VMS (also known and marketed as "OpenVMS"), from its inception and two-plus decades of development at Digital Equipment Corporation (DEC), then briefly in the hands of Compaq Computer Corporation (Compaq) when it aquired DEC in 1998, then through the "years in the wilderness", starting in 2001, at the not-so-benign mercies of Hewlett Packard Company (HP, now subdivided as HPE or "Hewlett Packard Enterprise"), and finally, in 2014, to the capable and welcoming hands of VMS Software Incorporated (VSI).
 
-The first ur-document for this history is a textual table (in a very painful format, both to read and to maintain, if anyone would do so), currently available as ["OpenVMS Release History"](http://h41379.www4.hpe.com/openvms/os/openvms-release-history.html) and a [downloadable "text only version"](http://h41379.www4.hpe.com/openvms/os/openvms-release-history.txt).  This document is preserved, with attribution (although its original author(s) is(are) unknown, likely not anyone at HP/HPE, more likely folks at or from DEC, and inherited by HP), as a component of this repository.
+The first ur-document for this history is a textual table (in a very painful format, both to read and to maintain, if anyone would do so), currently available as ["OpenVMS Release History"](http://h41379.www4.hpe.com/openvms/os/openvms-release-history.html) and a [downloadable "text only version"](http://h41379.www4.hpe.com/openvms/os/openvms-release-history.txt).  This document is preserved, with attribution to the current HPE webpage, as a component of this repository.
 
-However, the last entry in that ur-document is circa June 2010, with the release of VMS v8.4 -- much has happened since, especially due to VSI's strong capabilities in the form of the resurrected VMS Engineering Team.
+This document's original author(s) is(are) unknown, likely not anyone at HP/HPE.  So far, I've traced it back through
+[a dead Compaq URL](http://www.openvms.compaq.com/openvms/os/openvms-release-history.html) (http://www.openvms.compaq.com/openvms/os/openvms-release-history.html) -- most likely folks at or from DEC originated this, and it has simply been inherited by HP via the Compaq/Digital acquisition and merger, likely with a few updates along the way.
 
-The second ur-document for this history is the DEC-published ["Nothing Stops It - VAX/VMS AT 20 -- 1977-1997 ... and beyond"](http://archive.computerhistory.org/resources/text/DEC/vax/dec.vax.vax_at_20.1977-1997.102630370.pdf).  Again, this document's VMS timeline runs only up to v7.1 in December 1996.
+The last entry in that ur-document is circa June 2010, with the release of VMS v8.4 -- however, much has happened since, especially due to VSI's strong capabilities in the form of the resurrected VMS Engineering Team.
+
+The second ur-document for this history is the DEC-published
+["Nothing Stops It - VAX/VMS AT 20 -- 1977-1997 ... and beyond"](http://archive.computerhistory.org/resources/text/DEC/vax/dec.vax.vax_at_20.1977-1997.102630370.pdf).  Again, this document's VMS timeline runs only up to v7.1 in December 1996.
 
 ## Purpose and Mission
 
