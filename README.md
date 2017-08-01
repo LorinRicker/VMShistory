@@ -44,3 +44,13 @@ A reasonably up-to-date formated PDF-document of the VMS History and Timeline wi
 * [Wikipedia article: Dave Cutler](https://en.wikipedia.org/wiki/Dave_Cutler)
 
 * [Wikipedia article: Dick Hustvedt](https://en.wikipedia.org/wiki/Dick_Hustvedt)
+
+* ["Windows NT and VMS: The Rest of the Story" - Russinovich](http://tech-insider.org/windows/research/1998/12.html)
+
+* ["HP OpenVMS Systems: Support Chart"](http://h41379.www4.hpe.com/openvms/openvms_supportchart.html)
+
+## VMS Support and Training
+
+* [VMS Software Inc (VSI)](http://vmssoftware.com/) -- See this site for current and future VMS development and support road maps
+
+* [PARSEC Group](https://www.parsec.com/) -- See this site for VMS support, consulting and training
