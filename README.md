@@ -15,7 +15,7 @@ This document's original author(s) is(are) unknown, likely not anyone at HP/HPE.
 The last entry in that ur-document is circa June 2010, with the release of VMS v8.4 -- however, much has happened since, especially due to VSI's strong capabilities in the form of the resurrected VMS Engineering Team.
 
 The second ur-document for this history is the DEC-published
-["Nothing Stops It - VAX/VMS AT 20 -- 1977-1997 ... and beyond"](http://archive.computerhistory.org/resources/text/DEC/vax/dec.vax.vax_at_20.1977-1997.102630370.pdf).  Again, this document's VMS timeline runs only up to v7.1 in December 1996.
+["Nothing Stops It - VAX/VMS AT 20 -- 1977-1997 ... and beyond"](http://archive.computerhistory.org/resources/text/DEC/vax/dec.vax.vax_at_20.1977-1997.102630370.pdf).  This document's VMS timeline runs only up to v7.1 in December 1996, but it provides both enhanced information and more detail than the first ur-document.
 
 ## Purpose and Mission
 
@@ -32,6 +32,18 @@ Hopefully, the open-source nature and availability of this revised/improved docu
 * Especially from VSI's VMS Engineering Team and from active users (sys-admins, programmers, etc.) of VMS, the new features, functionality and capabilities as released and available.
 
 A reasonably up-to-date formated PDF-document of the VMS History and Timeline will be always available as part of this repository; however, it may be updated only as new facts and entries are actually vetted with supporting documentation and provenance.
+
+### Goals
+
+1. A complete history and timeline of VMS (OpenVMS), which:
+
+2. ...Merges all reputable sources and documents.
+
+2. ...Is current -- from v0.X through early releases to latest v9.x (and beyond).
+
+3. ...Is curated, with provenances verified.
+
+4. ...Is constructively and critically reviewed, by VMS peers, including developers, consultants and long-time users -- folks who should know, and who's facts/contributions can be cross-checked.
 
 ## Other Pertinent Books and Documents
 
